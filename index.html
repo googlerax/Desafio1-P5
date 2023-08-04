@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Blog</title>
+</head>
+
+<body>
+    <!-- Un menú de navegación (navbar). -->
+    <!--Textos de distintas jerarquías (al menos 3 encabezados y un párrafo).-->
+    <!-- Textos y párrafos con formatos distintos. Usá tags inline y self closing tags. Por ejemplo: para poner el texto en itálica, negrita o subrayarlo; por otro lado, incluí tags para hacer saltos de línea. Separá tus párrafos usando una línea. -->
+    <nav id="up">
+        <h1>Script Blog</h1>
+        <ul>
+            <!-- Links a otras páginas creadas por vos, guardadas en tu disco local. Una de ellas deberá ser un “Acerca de nosotros” (en inglés "About us"). Cada página deberá tener su título (title). -->
+            <li><a href="/Clase1/Desafio/index.html">Home</a></li>
+            <li><a href="/Clase1/Desafio/origin.html">Origen</a></li>
+            <li><a href="/Clase1/Desafio/resources.html">Recursos</a></li>
+            <li><a href="/Clase1/Desafio/about_us.html">About us</a></li>
+        </ul>
+    </nav>
+    <h3>👋 Bienvenidos al blog de JavaScript 👋</h3>
+    <p>Aquí encontraras algunos conceptos básicos referidos al lenguaje mas lindo del mundo:
+        <em><strong>JavaScript</strong></em></p>
+
+    <h4>¿Que es JavaScript? 🤔</h4>
+<!-- Imágenes ilustrativas. Una de ellas deberá tener un hipervínculo. -->
+    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+        width="350px" alt="javascript-logos"></a>
+    <p>
+        JavaScript es un lenguaje <strong>interpretado, multi-paradigma,</strong>de <strong>tipado débil, </strong> y
+        <strong> tipado dinámico, </strong>ademas, es un lenguaje de <strong> alto nivel </strong> y
+        <strong>multiplataforma.</strong><br>Estas características han contribuido al gran éxito de JavaScript y lo han
+        convertido en uno de los lenguajes más populares y versátiles en el desarrollo web.
+    </p>
+
+    <h4><u>Lenguaje interpretado</u></h4>
+    <p>JavaScript se ejecuta directamente en un entorno en tiempo de ejecución, su interprete es el <em> navegador
+            web</em> y cada navegador tiene un intérprete Javascript: Internet Explorer usa el motor JScript (versión 9
+        llamado Chakra), el motor de Mozilla Firefox se llama SpiderMonkey y el de Google Chrome es el V8. <br>
+
+        <strong><em> El interprete "traduce" directamente el código y lo ejecuta línea por línea.</em></strong>
+
+        <br>Originalmente fue diseñado como un lenguaje de scripting para navegadores web, pero ha evolucionado para
+        también ser ejecutado del lado del servidor gracias a plataformas como <strong>Node.js,</strong>
+    </p>
+    
+    <h4><u>lenguaje multi-paradigma</u>
+        </h4>
+    <p>Con javaScript se puede programar con varios paradigmas de la programación:<br>
+    <strong><em>programación funcional, POO (programación orientada a objetos), programación imperativa, programación reactiva, programación basada en eventos, entre otros.</em></strong>
+    </p>
+    <h4><u>Tipado débil</u>
+        </h4>
+    <p>El lenguaje realiza conversiones implícitas entre diferentes tipos de datos sin requerir una declaración del tipo de dato o un casting.</p>
+    <img src="https://parzibyte.me/blog/wp-content/uploads/2017/10/D%C3%A9bilmente-tipado.png" alt="tipado-debil">
+    <h4><u>Tipado dinámico</u></h4>
+    <p> el tipo de una variable en JavaScript es determinado en tiempo de ejecución, no es necesario declarar el tipo de una variable explícitamente al momento de crearla, y su tipo puede cambiar en cualquier momento durante la ejecución del programa.</p>
+
+    <h3>Versiones:</h3>
+    <a href="origin.html"><em>ver Origen e historia de javascript</em></a>
+    <p>JavaScript ha evolucionado a lo largo de los años, y se han lanzado varias versiones del lenguaje. Algunas de las versiones más comunes de JavaScript son:</p>
+    <!-- Una lista ordenada y una desordenada. -->
+    <ol>
+        <li>ECMAScript 1 (1997)</li>
+        <li>ECMAScript 2 (1998)</li>
+        <li>ECMAScript 3 (1999)</li>
+        <li>ECMAScript 4 (nunca lanzado)</li>
+        <li>ECMAScript 5 (2009)</li>
+        <!-- Links a sitios externos (al menos uno). -->
+        <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank">ECMAScript 6 (2015)</a>
+        </li>
+        <li>ECMAScript 2016</li>
+        <li>ECMAScript 2017</li>
+        <li>ECMAScript 2018</li>
+        <li>ECMAScript 2019</li>
+        <li>ECMAScript 2020</li>
+        <li>ECMAScript 2021</li>
+        <li>ECMAScript 2022</li>
+    </ol>
+    <p>
+        Desde 2016, las versiones de ECMAScript se nombran por año en lugar de por número de versión.Cada nueva versión de ECMAScript agrega nuevas funcionalidades y características al lenguaje, lo que lo hace más poderoso y versátil
+    </p>
+    <img src="https://www.freecodecamp.org/news/content/images/2019/07/why-does-this-happen.png" alt="meme">
+    <h2>Continuemos...</h2><br>
+
+    <h3>👉 Tipos da datos en javascript:</h3>
+    <h5>Primitivos</h5>
+    <!-- Una lista ordenada y una desordenada. -->
+    <ul>
+    <li><strong>String:</strong>
+        <code><br>
+            let str = "Hola mundo!";
+        </code>
+    </li>
+    <li><strong>Number:</strong>
+        <code><br>
+            let numero = 10;
+        </code>
+    </li>
+    <li><strong>Boolean</strong>
+        <code><br>
+            let verdadero_falso = true;
+        </code>
+    </li>
+    <li><strong>Undefined:</strong>
+    <code><br>
+        let indefinido = undefined;
+    </code></li>
+    <li><strong>BigInt: </strong>
+    <code><br>
+        const miBigInt = 1234567890123456789012345678901234567890n;
+    </code></li>
+    <li><strong>Symbol: </strong>
+        <code><br>
+        const miSimbolo = Symbol("miSimbolo")
+    </code></li>
+    </ul>
+    <h5>Objetos</h5>
+    <ul>
+        <li><strong>Arrays:</strong>
+        <code><br>
+            let miArray = [1,2,"hola"]
+        </code>
+    </li>
+        <li>
+            <strong>Objetos:</strong>
+            <code><br>
+                let miObjeto = {
+                    nombre:"griselda"
+                    apellido: undefined
+                }
+            </code>
+        </li>
+        <li><strong>Funciones:</strong>
+            <code><br>
+                function hola(){
+                    return "hola mundo"
+                }
+            </code>
+        </li>
+    </ul>
+
+    <h2><em><strong>🤨 var, let y const</strong></em></h2>
+    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--1bwIsbRE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/iun7rdwubbb4eivzb4r8.jpeg" width="650px"   alt="var-let">
+    <p>Son palabras clave (keywords) utilizadas para declarar variables y controlar el alcance y la mutabilidad de esas variables.<br>A partir de ECMAScript 6 (ES6), se introdujeron let y const como alternativas a var, que presentaba algunas limitaciones.</p>
+    <h2><strong>var</strong></h2>
+    <p>Antes de la introducción de let y const en ECMAScript 6 (ES6), var era la única manera de declarar variables en JavaScript. Las variables declaradas con var <strong>tienen un alcance de función o un alcance global,</strong>lo que significa que pueden ser accedidas desde cualquier lugar dentro de la función o incluso desde fuera de la función si se declaran fuera de cualquier función.</p>
+    <h2><strong>let</strong></h2>
+    <p>es una palabra clave introducida en ES6 que permite declarar variables con <strong>alcance de bloque, </strong>esto significa que las variables declaradas con let <em>solo son accesibles dentro del bloque (entre llaves {}) donde se definieron</em></p>
+    <h2><strong>const</strong></h2>
+    <p>const también fue introducido en ES6 y se utiliza para declarar <strong>constantes.</strong> Las constantes son variables inmutables, lo que significa que una vez que se les asigna un valor, ese valor no puede ser cambiado. Al igual que let, const también tiene alcance de bloque.</p>
+    <img src="https://www.freecodecamp.org/news/content/images/2019/07/this-is-javascript.jpeg" width="200px"  alt="meme2">
+
+    <br><br>
+    <a href="#up">Home👆</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
